@@ -1,12 +1,14 @@
-import { useState } from 'react'
-
+import Canvas from './canvas';
+import Customizer from './pages/customizer';
+import Home from './pages/Home';
 
 function App() {
-
   return (
-    <>
-    <h1 className='head-text'>hola </h1>
-    </>
+    <main className="app transition-all ease-in">
+      <Home />
+      <Canvas />
+      <Customizer />
+    </main>
   )
 }
 
